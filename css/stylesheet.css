@@ -1,0 +1,65 @@
+
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #6ce2e0;
+	text-align: center;
+	font-family: verdana;
+	font-size: 14px;
+}
+h1{
+	font-family: copperplate;
+}
+h2{
+	font-family: copperplate;
+}
+ul{
+  width: 100%;
+  padding: 70px;
+}
+li {
+	width: 200px;
+	height: 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	position: center;
+	background-color: white;
+	border-radius: 10px;
+}
+a:link {
+	text-decoration: none;
+	color: teal;
+}
+a:visited {
+	color: grey;
+}
+.index-header {
+	padding:100px 70px;
+	height: 300px;
+	background: linear-gradient(#ffa949, transparent, #6ce2e0), 
+		#ffa949 url('../images/ingredients.jpeg') no-repeat center;
+	background-size: cover;
+	border-radius: 15px;
+	bottom-padding:30px;
+}
+.heading-list{
+	padding-top: 60px;
+}
+.milk-header {
+	padding:70px;
+	height: 400px;
+	background: linear-gradient(#ffa949, transparent 50%, #6ce2e0 95%), 
+		#ffa949 url('../images/milk.jpg') center;
+	background-size: cover;
+	border-radius: 15px;
+	
+}
+.primary-content {
+	position: center;
+	padding: 20px 70px;
+}
+.secondary-content{
+	padding-top: 70px;
+}
