@@ -1,0 +1,11 @@
+body{
+	background-image: url('../images/skull2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+@media (min-width:690px){
+	body{
+		background-size: 690px;
+		background-position: top;
+	}
+}

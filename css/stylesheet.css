@@ -24,16 +24,21 @@ li {
 	display: inline-block;
 	position: center;
 	background-color: black;
-	border-radius: 7px;
+	border-radius:20px;
 	color: white;
 }
 a:link {
 	text-decoration: none;
-	color: white;
-}
-a:visited {
 	color: #f9ddbd;
 }
+a:visited {
+	color: white;
+}
+
+a:hover {
+	color: #ffa949;
+}
+
 .index-header {
 	padding:100px 70px;
 	height: 300px;
