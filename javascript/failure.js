@@ -5,7 +5,7 @@ var ahh = "EPIC FAIL!!!!";
 var lol = "Lol, just kidding! It'll probably be fine, but let's just check.";
 	alert(lol);
 	
-var question1 = prompt("One at a time, What did you feed me?");
+var question1 = prompt("One at a time, What did you feed me?").toUpperCase();
 	if (question1 === 'ALMONDS' || question1 === 'ALMOND') {
 		score += 10;
 	} else if (question1 === 'MILK') {
