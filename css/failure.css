@@ -1,11 +1,60 @@
 body{
-	background-image: url('../images/skull2.png');
-	background-size: cover;
+	background: #000 url('../images/skull2.png') no-repeat center;
 	background-repeat: no-repeat;
+	margin:0;
+}
+p{
+	size: 70px;
+	color: #fff;
+	text-shadow:.1em .1em .3em #000;
+	position: center;
+	padding: 8%;
+
+}
+li {
+	width: 220px;
+	height: 20px;
+	margin-top: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	position: center;
+	background-color: black;
+	border-radius:20px;
+	color: #f9ddbd;
+	text-align: center;
+	font-family: verdana;
+	font-size: 14px;
+	margin: 0;
+}
+footer{
+ 	
+ 	border-width: 5px 0 ;
+ 	border-style: solid;
+ 	border-color: #000;
+ 	background: #ff9999;
+    padding: 2px 0;
+    margin: 25% 0;
 }
 @media (min-width:690px){
 	body{
 		background-size: 690px;
 		background-position: top;
+		width: 690px;
 	}
+}
+
+a:link {
+	text-decoration: none;
+	color: grey;
+	text-shadow: 0 0 0.2em #000, 0 0 0.2em #000,
+        0 0 0.2em #000;
+}
+a:visited {
+	color: #f9ddbd;
+	text-shadow: 0 0 0.2em #000, 0 0 0.2em #000,
+        0 0 0.2em #000;
+}
+
+a:hover {
+	color: #ffa949;
 }
